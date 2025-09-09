@@ -82,8 +82,10 @@ export default function Header() {
         "sticky top-0 z-50 flex items-center",
         scrolled
           ? "bg-white backdrop-blur supports-[backdrop-filter]:bg-white"
-          : "bg-transparent"
+          : "bg-transparent",
+          
       )}
+      style={{ height: "var(--header-h)" }}
     >
       <nav className="container m-auto flex h-14 items-center gap-6">
         {/* Brand / Home */}
